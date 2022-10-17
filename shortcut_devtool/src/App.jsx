@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/Header.jsx'
 import ToolsGrid from './components/ToolsGrid.jsx'
 import ToolsGrid2 from './components/ToolsGrid2.jsx'
+import Footer from './components/Footers.jsx'
 import './css/App.css'
 import { Route, Routes, Link } from "react-router-dom";
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/" element={ <ToolsGrid /> } />
           <Route path="/devtools" element={ <ToolsGrid2 /> } />
         </Routes>
+        <Footer/>
       </div>
     </div>
   );
