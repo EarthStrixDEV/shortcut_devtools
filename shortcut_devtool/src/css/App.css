@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.page-number-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.7rem;
+}
+
+.page-number-container .item-element {
+    width: 200px;
+    text-align: center;
+    border: none;
+    border-radius:10px;
+    background-color: #ececec;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.item-element a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.item-element:active {
+    background-color: #dbdbdb;
+}
