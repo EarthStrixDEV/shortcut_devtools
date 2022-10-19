@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import ToolsGrid from "./ToolsGrid";
 import ToolsGrid2 from "./ToolsGrid2";
 import ToolsGrid3 from "./ToolsGrid3";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { Route, Link, Routes } from "react-router-dom";
 import "../css/Header.css";
 import "../css/App.css";
@@ -27,6 +29,7 @@ const Header = () => {
         </div>
         <div className="input-search">
           <label for="">
+            <FontAwesomeIcon icon={faSearch}></FontAwesomeIcon>
             <input type="text" id="text-search" />
             <button type="submit" onClick={handleSetSearch}>
               OK
