@@ -34,14 +34,16 @@ header .input-search label {
 
 header .input-search input {
     padding: 10px;
-    font-size: 17px;
+    font-size: 20px;
+    font-family:sans-serif;
     border: 1px solid grey;
     background: #f1f1f1;
     border: none;
+    caret-color: rgba(21, 21, 21, 0.395);
 }
 
 header .input-search input:hover {
-    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.119);
+    box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.172);
 }
 
 header .input-search button {
@@ -53,8 +55,10 @@ header .input-search button {
     border: none;
     border-left: none;
     cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 header .input-search button:active {
-    background: #0b7dda;
+    background: #056cbf;
 } 
